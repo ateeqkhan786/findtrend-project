@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.logoimg{
+    cursor: pointer;
+}
+
+nav{
+    margin: 0 3rem;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links a{
+    margin: 1rem;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.log-btn a{
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.SignUpbtn{
+    background-color: white;
+    color: black !important;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+}
+
+/* main conteent */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 4rem;
+}
+
+.content p{
+    color: #7B7B7B;
+}
+
+.mainbtn button{
+    margin-top: 30px;
+    border-radius: 50px;
+    font-weight: bolder;
+    padding: 1rem 2rem;
+    color: black;
+    background-color: #A8FF35;
+    border: none;
+    cursor: pointer;
+}
+
+.companylogo img{
+    margin-top: 40px;
+max-width: 20%;
+height: auto;
+}
+
+
+.newtabsec{
+    background-color: #A8FF35;
+    color: black;
+   
+}
+
+.newtabsec{
+    padding:0 3rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.newtabsec h1{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.newtabsec img{
+    padding: 0;
+    border: 3rem solid white;
+}
+
+.newtabsec p {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+/* platform sections */
+
+.platform{
+    margin: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem 3rem;
+    flex-direction: column;
+}
+
+.platform h1{
+    font-size: 2rem;
+
+}
+
+.logos{
+    margin-top: 100px;
+}
+
+.logos img{
+    margin: 20px;
+    cursor: pointer;
+}
+
+.card-holder{
+    text-align: center;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin: 4rem;
+    background-color: white;
+    color: black;
+    padding: 4rem 2rem;
+    border-radius: 20px;
+}
+.pricing-sec h1{
+    margin-top: 70px;
+}
+
+.pricing-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+}
+
+.card h2{
+    font-size: 2rem;
+}
+
+.card ul li {
+    list-style: none;
+}
+
+.price{
+     font-size: 3rem;
+}
+
+.price-sec{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trailbtn{
+    margin-top: 30px;
+    border-radius: 50px;
+    font-weight: bolder;
+    padding: 1rem 2rem;
+    color: black;
+    background-color: #A8FF35;
+    border: none;
+    cursor: pointer;
+}
+.midlebtn{
+    margin-top: 30px;
+    border-radius: 50px;
+    font-weight: bolder;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.card2 ul li {
+    list-style: none;
+}
+
+.card2 h2{
+    font-size: 2rem;
+}
+
+.card2{
+    margin: 4rem;
+    background-color: #A8FF35;
+    color: black;
+    padding: 4rem 2rem;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #BEFF67;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem  3rem;
+}
+.ftext{
+    color: #A8FF35;
+}
+
+@media (max-width:600px) {
+    .content h1{
+        font-size: 2rem;
+    }
+    .content p{
+        font-size: 0.6rem;
+    }
+    .mainbtn button{
+        margin-top: 30px;
+        border-radius: 50px;
+        font-weight: bolder;
+        padding: 0.5rem 1rem;
+        color: black;
+        background-color: #A8FF35;
+        border: none;
+        cursor: pointer;
+    }
+
+    .companylogo img{
+        margin-top: 40px;
+
+    max-width: 40%;
+    height: auto;
+    }
+
+    .newtabsec h1{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    .newtabsec p{
+        font-size: 0.5rem;
+        margin-bottom: 20px;
+    }
+    .newtabsec img{
+        width: 50%;
+        padding: 0;
+        border: 1.5rem solid white;
+    }
+    .newtabsec{
+       height: 30vh;
+    }
+  
+  
+    .card-holder{
+        display: flex;
+        flex-direction: column;
+    }
+    .platform h1{
+        font-size: 1rem;
+    }
+
+    .platform img{
+        width: 20%;
+    }    
+    .card2{
+        margin: 2rem;
+        background-color: #A8FF35;
+        color: black;
+        padding: 2rem 1rem;
+        border-radius: 20px;
+    }
+    .card2 h2{
+        font-size: 1rem;
+    }
+}
